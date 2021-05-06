@@ -3,27 +3,96 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65CC533D25BDC76400D693EC /* ModacsaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC533C25BDC76400D693EC /* ModacsaApp.swift */; };
-		65CC533F25BDC76400D693EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC533E25BDC76400D693EC /* ContentView.swift */; };
-		65CC534125BDC76500D693EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65CC534025BDC76500D693EC /* Assets.xcassets */; };
-		65CC534425BDC76500D693EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65CC534325BDC76500D693EC /* Preview Assets.xcassets */; };
+		654654932625E740003A40C3 /* BMDJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654654922625E740003A40C3 /* BMDJColor.swift */; };
+		654F9EEC2628A0E500829FD0 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F9EEB2628A0E500829FD0 /* UIColor.swift */; };
+		654F9EFA2628A62300829FD0 /* BMDJTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F9EF92628A62300829FD0 /* BMDJTypography.swift */; };
+		655880E92621F3AE00F3C08D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 655880E82621F3AE00F3C08D /* SnapKit */; };
+		655880F92621F5F600F3C08D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 655880F82621F5F600F3C08D /* RealmSwift */; };
+		655880FB2621F5F600F3C08D /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 655880FA2621F5F600F3C08D /* Realm */; };
+		6565C53D2622E1FB00280400 /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 6565C53C2622E1FB00280400 /* RxAlamofire */; };
+		6567E9EC25CB076B003F3B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6567E9EB25CB076B003F3B50 /* AppDelegate.swift */; };
+		6567E9EE25CB076B003F3B50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6567E9ED25CB076B003F3B50 /* SceneDelegate.swift */; };
+		6567E9F025CB076B003F3B50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6567E9EF25CB076B003F3B50 /* ViewController.swift */; };
+		6567E9F325CB076B003F3B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6567E9F125CB076B003F3B50 /* Main.storyboard */; };
+		6567E9F525CB076B003F3B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6567E9F425CB076B003F3B50 /* Assets.xcassets */; };
+		6567E9F825CB076B003F3B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6567E9F625CB076B003F3B50 /* LaunchScreen.storyboard */; };
+		6567EA0325CB076B003F3B50 /* ModacsaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6567EA0225CB076B003F3B50 /* ModacsaTests.swift */; };
+		6567EA0E25CB076C003F3B50 /* ModacsaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6567EA0D25CB076C003F3B50 /* ModacsaUITests.swift */; };
+		65E886492622E336003BA2DD /* RxKingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 65E886482622E336003BA2DD /* RxKingfisher */; };
+		65E886532622E571003BA2DD /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 65E886522622E571003BA2DD /* RxSwift */; };
+		65E886552622E571003BA2DD /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 65E886542622E571003BA2DD /* RxTest */; };
+		65E886572622E571003BA2DD /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 65E886562622E571003BA2DD /* RxRelay */; };
+		65E886592622E571003BA2DD /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 65E886582622E571003BA2DD /* RxCocoa */; };
+		65E8865B2622E571003BA2DD /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 65E8865A2622E571003BA2DD /* RxBlocking */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6567E9FF25CB076B003F3B50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6567E9E025CB076B003F3B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6567E9E725CB076B003F3B50;
+			remoteInfo = Modacsa;
+		};
+		6567EA0A25CB076C003F3B50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6567E9E025CB076B003F3B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6567E9E725CB076B003F3B50;
+			remoteInfo = Modacsa;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		65CC533925BDC76400D693EC /* Modacsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modacsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		65CC533C25BDC76400D693EC /* ModacsaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModacsaApp.swift; sourceTree = "<group>"; };
-		65CC533E25BDC76400D693EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		65CC534025BDC76500D693EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		65CC534325BDC76500D693EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		65CC534525BDC76500D693EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654654922625E740003A40C3 /* BMDJColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMDJColor.swift; sourceTree = "<group>"; };
+		654F9EEB2628A0E500829FD0 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		654F9EF92628A62300829FD0 /* BMDJTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMDJTypography.swift; sourceTree = "<group>"; };
+		6567E9E825CB076B003F3B50 /* Modacsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modacsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6567E9EB25CB076B003F3B50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6567E9ED25CB076B003F3B50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6567E9EF25CB076B003F3B50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6567E9F225CB076B003F3B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6567E9F425CB076B003F3B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6567E9F725CB076B003F3B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6567E9F925CB076B003F3B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6567E9FE25CB076B003F3B50 /* ModacsaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModacsaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6567EA0225CB076B003F3B50 /* ModacsaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModacsaTests.swift; sourceTree = "<group>"; };
+		6567EA0425CB076C003F3B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6567EA0925CB076C003F3B50 /* ModacsaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModacsaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6567EA0D25CB076C003F3B50 /* ModacsaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModacsaUITests.swift; sourceTree = "<group>"; };
+		6567EA0F25CB076C003F3B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		65CC533625BDC76400D693EC /* Frameworks */ = {
+		6567E9E525CB076B003F3B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E886592622E571003BA2DD /* RxCocoa in Frameworks */,
+				65E886552622E571003BA2DD /* RxTest in Frameworks */,
+				65E886532622E571003BA2DD /* RxSwift in Frameworks */,
+				65E886492622E336003BA2DD /* RxKingfisher in Frameworks */,
+				655880FB2621F5F600F3C08D /* Realm in Frameworks */,
+				6565C53D2622E1FB00280400 /* RxAlamofire in Frameworks */,
+				655880F92621F5F600F3C08D /* RealmSwift in Frameworks */,
+				65E886572622E571003BA2DD /* RxRelay in Frameworks */,
+				655880E92621F3AE00F3C08D /* SnapKit in Frameworks */,
+				65E8865B2622E571003BA2DD /* RxBlocking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6567E9FB25CB076B003F3B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6567EA0625CB076C003F3B50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,77 +102,168 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65CC533025BDC76400D693EC = {
+		6546548E2625E734003A40C3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				65CC533B25BDC76400D693EC /* Modacsa */,
-				65CC533A25BDC76400D693EC /* Products */,
+				654654922625E740003A40C3 /* BMDJColor.swift */,
+				654F9EF92628A62300829FD0 /* BMDJTypography.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		654F9EEA2628A0D600829FD0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				654F9EEB2628A0E500829FD0 /* UIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6567E9DF25CB076B003F3B50 = {
+			isa = PBXGroup;
+			children = (
+				6567E9EA25CB076B003F3B50 /* Modacsa */,
+				6567EA0125CB076B003F3B50 /* ModacsaTests */,
+				6567EA0C25CB076C003F3B50 /* ModacsaUITests */,
+				6567E9E925CB076B003F3B50 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		65CC533A25BDC76400D693EC /* Products */ = {
+		6567E9E925CB076B003F3B50 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65CC533925BDC76400D693EC /* Modacsa.app */,
+				6567E9E825CB076B003F3B50 /* Modacsa.app */,
+				6567E9FE25CB076B003F3B50 /* ModacsaTests.xctest */,
+				6567EA0925CB076C003F3B50 /* ModacsaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65CC533B25BDC76400D693EC /* Modacsa */ = {
+		6567E9EA25CB076B003F3B50 /* Modacsa */ = {
 			isa = PBXGroup;
 			children = (
-				65CC533C25BDC76400D693EC /* ModacsaApp.swift */,
-				65CC533E25BDC76400D693EC /* ContentView.swift */,
-				65CC534025BDC76500D693EC /* Assets.xcassets */,
-				65CC534525BDC76500D693EC /* Info.plist */,
-				65CC534225BDC76500D693EC /* Preview Content */,
+				654F9EEA2628A0D600829FD0 /* Extension */,
+				6546548E2625E734003A40C3 /* Resource */,
+				6567E9EB25CB076B003F3B50 /* AppDelegate.swift */,
+				6567E9ED25CB076B003F3B50 /* SceneDelegate.swift */,
+				6567E9EF25CB076B003F3B50 /* ViewController.swift */,
+				6567E9F125CB076B003F3B50 /* Main.storyboard */,
+				6567E9F425CB076B003F3B50 /* Assets.xcassets */,
+				6567E9F625CB076B003F3B50 /* LaunchScreen.storyboard */,
+				6567E9F925CB076B003F3B50 /* Info.plist */,
 			);
 			path = Modacsa;
 			sourceTree = "<group>";
 		};
-		65CC534225BDC76500D693EC /* Preview Content */ = {
+		6567EA0125CB076B003F3B50 /* ModacsaTests */ = {
 			isa = PBXGroup;
 			children = (
-				65CC534325BDC76500D693EC /* Preview Assets.xcassets */,
+				6567EA0225CB076B003F3B50 /* ModacsaTests.swift */,
+				6567EA0425CB076C003F3B50 /* Info.plist */,
 			);
-			path = "Preview Content";
+			path = ModacsaTests;
+			sourceTree = "<group>";
+		};
+		6567EA0C25CB076C003F3B50 /* ModacsaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6567EA0D25CB076C003F3B50 /* ModacsaUITests.swift */,
+				6567EA0F25CB076C003F3B50 /* Info.plist */,
+			);
+			path = ModacsaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65CC533825BDC76400D693EC /* Modacsa */ = {
+		6567E9E725CB076B003F3B50 /* Modacsa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65CC534825BDC76500D693EC /* Build configuration list for PBXNativeTarget "Modacsa" */;
+			buildConfigurationList = 6567EA1225CB076C003F3B50 /* Build configuration list for PBXNativeTarget "Modacsa" */;
 			buildPhases = (
-				65CC533525BDC76400D693EC /* Sources */,
-				65CC533625BDC76400D693EC /* Frameworks */,
-				65CC533725BDC76400D693EC /* Resources */,
+				6567E9E425CB076B003F3B50 /* Sources */,
+				6567E9E525CB076B003F3B50 /* Frameworks */,
+				6567E9E625CB076B003F3B50 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Modacsa;
+			packageProductDependencies = (
+				655880E82621F3AE00F3C08D /* SnapKit */,
+				655880F82621F5F600F3C08D /* RealmSwift */,
+				655880FA2621F5F600F3C08D /* Realm */,
+				6565C53C2622E1FB00280400 /* RxAlamofire */,
+				65E886482622E336003BA2DD /* RxKingfisher */,
+				65E886522622E571003BA2DD /* RxSwift */,
+				65E886542622E571003BA2DD /* RxTest */,
+				65E886562622E571003BA2DD /* RxRelay */,
+				65E886582622E571003BA2DD /* RxCocoa */,
+				65E8865A2622E571003BA2DD /* RxBlocking */,
+			);
 			productName = Modacsa;
-			productReference = 65CC533925BDC76400D693EC /* Modacsa.app */;
+			productReference = 6567E9E825CB076B003F3B50 /* Modacsa.app */;
 			productType = "com.apple.product-type.application";
+		};
+		6567E9FD25CB076B003F3B50 /* ModacsaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6567EA1525CB076C003F3B50 /* Build configuration list for PBXNativeTarget "ModacsaTests" */;
+			buildPhases = (
+				6567E9FA25CB076B003F3B50 /* Sources */,
+				6567E9FB25CB076B003F3B50 /* Frameworks */,
+				6567E9FC25CB076B003F3B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6567EA0025CB076B003F3B50 /* PBXTargetDependency */,
+			);
+			name = ModacsaTests;
+			productName = ModacsaTests;
+			productReference = 6567E9FE25CB076B003F3B50 /* ModacsaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6567EA0825CB076C003F3B50 /* ModacsaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6567EA1825CB076C003F3B50 /* Build configuration list for PBXNativeTarget "ModacsaUITests" */;
+			buildPhases = (
+				6567EA0525CB076C003F3B50 /* Sources */,
+				6567EA0625CB076C003F3B50 /* Frameworks */,
+				6567EA0725CB076C003F3B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6567EA0B25CB076C003F3B50 /* PBXTargetDependency */,
+			);
+			name = ModacsaUITests;
+			productName = ModacsaUITests;
+			productReference = 6567EA0925CB076C003F3B50 /* ModacsaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		65CC533125BDC76400D693EC /* Project object */ = {
+		6567E9E025CB076B003F3B50 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					65CC533825BDC76400D693EC = {
+					6567E9E725CB076B003F3B50 = {
 						CreatedOnToolsVersion = 12.3;
+					};
+					6567E9FD25CB076B003F3B50 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6567E9E725CB076B003F3B50;
+					};
+					6567EA0825CB076C003F3B50 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6567E9E725CB076B003F3B50;
 					};
 				};
 			};
-			buildConfigurationList = 65CC533425BDC76400D693EC /* Build configuration list for PBXProject "Modacsa" */;
+			buildConfigurationList = 6567E9E325CB076B003F3B50 /* Build configuration list for PBXProject "Modacsa" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +271,118 @@
 				en,
 				Base,
 			);
-			mainGroup = 65CC533025BDC76400D693EC;
-			productRefGroup = 65CC533A25BDC76400D693EC /* Products */;
+			mainGroup = 6567E9DF25CB076B003F3B50;
+			packageReferences = (
+				655880E72621F3AE00F3C08D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				655880F72621F5F600F3C08D /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				6565C53B2622E1FA00280400 /* XCRemoteSwiftPackageReference "RxAlamofire" */,
+				65E886472622E336003BA2DD /* XCRemoteSwiftPackageReference "RxKingfisher" */,
+				65E886512622E571003BA2DD /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			productRefGroup = 6567E9E925CB076B003F3B50 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65CC533825BDC76400D693EC /* Modacsa */,
+				6567E9E725CB076B003F3B50 /* Modacsa */,
+				6567E9FD25CB076B003F3B50 /* ModacsaTests */,
+				6567EA0825CB076C003F3B50 /* ModacsaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		65CC533725BDC76400D693EC /* Resources */ = {
+		6567E9E625CB076B003F3B50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65CC534425BDC76500D693EC /* Preview Assets.xcassets in Resources */,
-				65CC534125BDC76500D693EC /* Assets.xcassets in Resources */,
+				6567E9F825CB076B003F3B50 /* LaunchScreen.storyboard in Resources */,
+				6567E9F525CB076B003F3B50 /* Assets.xcassets in Resources */,
+				6567E9F325CB076B003F3B50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6567E9FC25CB076B003F3B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6567EA0725CB076C003F3B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		65CC533525BDC76400D693EC /* Sources */ = {
+		6567E9E425CB076B003F3B50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65CC533F25BDC76400D693EC /* ContentView.swift in Sources */,
-				65CC533D25BDC76400D693EC /* ModacsaApp.swift in Sources */,
+				654654932625E740003A40C3 /* BMDJColor.swift in Sources */,
+				6567E9F025CB076B003F3B50 /* ViewController.swift in Sources */,
+				6567E9EC25CB076B003F3B50 /* AppDelegate.swift in Sources */,
+				654F9EFA2628A62300829FD0 /* BMDJTypography.swift in Sources */,
+				6567E9EE25CB076B003F3B50 /* SceneDelegate.swift in Sources */,
+				654F9EEC2628A0E500829FD0 /* UIColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6567E9FA25CB076B003F3B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6567EA0325CB076B003F3B50 /* ModacsaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6567EA0525CB076C003F3B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6567EA0E25CB076C003F3B50 /* ModacsaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6567EA0025CB076B003F3B50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6567E9E725CB076B003F3B50 /* Modacsa */;
+			targetProxy = 6567E9FF25CB076B003F3B50 /* PBXContainerItemProxy */;
+		};
+		6567EA0B25CB076C003F3B50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6567E9E725CB076B003F3B50 /* Modacsa */;
+			targetProxy = 6567EA0A25CB076C003F3B50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6567E9F125CB076B003F3B50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6567E9F225CB076B003F3B50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6567E9F625CB076B003F3B50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6567E9F725CB076B003F3B50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		65CC534625BDC76500D693EC /* Debug */ = {
+		6567EA1025CB076C003F3B50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +443,7 @@
 			};
 			name = Debug;
 		};
-		65CC534725BDC76500D693EC /* Release */ = {
+		6567EA1125CB076C003F3B50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,17 +498,15 @@
 			};
 			name = Release;
 		};
-		65CC534925BDC76500D693EC /* Debug */ = {
+		6567EA1325CB076C003F3B50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Modacsa/Preview Content\"";
 				DEVELOPMENT_TEAM = 5SS54HZR7B;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Modacsa/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,17 +518,15 @@
 			};
 			name = Debug;
 		};
-		65CC534A25BDC76500D693EC /* Release */ = {
+		6567EA1425CB076C003F3B50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Modacsa/Preview Content\"";
 				DEVELOPMENT_TEAM = 5SS54HZR7B;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Modacsa/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,28 +538,226 @@
 			};
 			name = Release;
 		};
+		6567EA1625CB076C003F3B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SS54HZR7B;
+				INFOPLIST_FILE = ModacsaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaotocs.ModacsaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modacsa.app/Modacsa";
+			};
+			name = Debug;
+		};
+		6567EA1725CB076C003F3B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SS54HZR7B;
+				INFOPLIST_FILE = ModacsaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaotocs.ModacsaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modacsa.app/Modacsa";
+			};
+			name = Release;
+		};
+		6567EA1925CB076C003F3B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SS54HZR7B;
+				INFOPLIST_FILE = ModacsaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaotocs.ModacsaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Modacsa;
+			};
+			name = Debug;
+		};
+		6567EA1A25CB076C003F3B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SS54HZR7B;
+				INFOPLIST_FILE = ModacsaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaotocs.ModacsaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Modacsa;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65CC533425BDC76400D693EC /* Build configuration list for PBXProject "Modacsa" */ = {
+		6567E9E325CB076B003F3B50 /* Build configuration list for PBXProject "Modacsa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65CC534625BDC76500D693EC /* Debug */,
-				65CC534725BDC76500D693EC /* Release */,
+				6567EA1025CB076C003F3B50 /* Debug */,
+				6567EA1125CB076C003F3B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65CC534825BDC76500D693EC /* Build configuration list for PBXNativeTarget "Modacsa" */ = {
+		6567EA1225CB076C003F3B50 /* Build configuration list for PBXNativeTarget "Modacsa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65CC534925BDC76500D693EC /* Debug */,
-				65CC534A25BDC76500D693EC /* Release */,
+				6567EA1325CB076C003F3B50 /* Debug */,
+				6567EA1425CB076C003F3B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6567EA1525CB076C003F3B50 /* Build configuration list for PBXNativeTarget "ModacsaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6567EA1625CB076C003F3B50 /* Debug */,
+				6567EA1725CB076C003F3B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6567EA1825CB076C003F3B50 /* Build configuration list for PBXNativeTarget "ModacsaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6567EA1925CB076C003F3B50 /* Debug */,
+				6567EA1A25CB076C003F3B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		655880E72621F3AE00F3C08D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		655880F72621F5F600F3C08D /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.7.2;
+			};
+		};
+		6565C53B2622E1FA00280400 /* XCRemoteSwiftPackageReference "RxAlamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxAlamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.1;
+			};
+		};
+		65E886472622E336003BA2DD /* XCRemoteSwiftPackageReference "RxKingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxKingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		65E886512622E571003BA2DD /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		655880E82621F3AE00F3C08D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 655880E72621F3AE00F3C08D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		655880F82621F5F600F3C08D /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 655880F72621F5F600F3C08D /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		655880FA2621F5F600F3C08D /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 655880F72621F5F600F3C08D /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		6565C53C2622E1FB00280400 /* RxAlamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6565C53B2622E1FA00280400 /* XCRemoteSwiftPackageReference "RxAlamofire" */;
+			productName = RxAlamofire;
+		};
+		65E886482622E336003BA2DD /* RxKingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65E886472622E336003BA2DD /* XCRemoteSwiftPackageReference "RxKingfisher" */;
+			productName = RxKingfisher;
+		};
+		65E886522622E571003BA2DD /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65E886512622E571003BA2DD /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		65E886542622E571003BA2DD /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65E886512622E571003BA2DD /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		65E886562622E571003BA2DD /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65E886512622E571003BA2DD /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		65E886582622E571003BA2DD /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65E886512622E571003BA2DD /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		65E8865A2622E571003BA2DD /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65E886512622E571003BA2DD /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 65CC533125BDC76400D693EC /* Project object */;
+	rootObject = 6567E9E025CB076B003F3B50 /* Project object */;
 }
